@@ -11,8 +11,7 @@ export function SocketProvider({ id, children }) {
     const [socket, setSocket] = useState()
 
     useEffect(() => {
-        const newSocket = io(
-           process.env.NEXT_PUBLIC_DB_URL,
+        const newSocket = io('https://chat-9d6x.onrender.com',
             { query: { id } }
         )
         setSocket(newSocket)
