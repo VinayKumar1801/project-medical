@@ -1,4 +1,6 @@
-const io = require('socket.io')(5000, { cors: { origin:"http://localhost:3000"}})
+require("dotenv").config()
+
+const io = require('socket.io')(5000, { cors: { origin:process.env.SOCKET}})
 
 io.on('connection', socket => {
     const id = socket.handshake.query.id
