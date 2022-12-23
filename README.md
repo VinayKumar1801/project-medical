@@ -13,6 +13,13 @@
 
 ### Live Serverside Deployed Link https://chat-9d6x.onrender.com/ (rendor)
 
+### For Local run commands 
+
+```node 
+npm i  
+npm run dev 
+```
+
 
 # Features 
 
