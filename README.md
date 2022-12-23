@@ -9,6 +9,11 @@
 - Karthik Alakunta
 
 
+### Live Deployed link https://project-medical.vercel.app (vercel)
+
+### Live Serverside Deployed Link https://chat-9d6x.onrender.com/ (rendor)
+
+
 # Features 
 
 ### Creating Rooms
