@@ -12,7 +12,7 @@ export function SocketProvider({ id, children }) {
 
     useEffect(() => {
         const newSocket = io(
-           process.env.DBURL,
+           process.env.NEXT_PUBLIC_DB_URL,
             { query: { id } }
         )
         setSocket(newSocket)
